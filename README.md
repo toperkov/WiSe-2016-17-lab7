@@ -4,7 +4,7 @@
 
 U sklopu današnje vježbe student će realizirati jednostavnu bežičnu senzorsku mrežu *stablaste topologije* (``tree topology``) kao što je prikazana na slici.
 
-<img src="https://cloud.githubusercontent.com/assets/8695815/25784308/cfa62074-336a-11e7-8063-7169197fcab0.jpg" width="700px" />
+<img src="https://cloud.githubusercontent.com/assets/8695815/25784308/cfa62074-336a-11e7-8063-7169197fcab0.jpg" width="800px" />
 
 Mreža će se sastojati od jednog **centralnog uređaja**, **posredničkih bežičnih senzorskih uređaja** te **krajnjih senzorskih uređaja**. Svi uređaji će imati jedinstvenu adresu. Posrednički i krajnji senzorski uređaji su opremljeni sa senzorima temperature/vlage **DHT11/22** i osvjetljenosti **BH1750** te radio primopredajnikom **nRF24L01**. Senzorski podaci se transmitiraju s periodom od 8-10 sekundi prema centralnom uređaju koji te podatke ispisuje na serijski port.
 
