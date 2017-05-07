@@ -41,8 +41,8 @@ Ako su mrežne adrese dodijeljene u skladu s fizičkim izgledom mreže, čvorovi
 
 Ako se podaci usmjeravaju između parent i child čvorova, tada mreža koristi ugrađene funkcije slanja ACK poruke retransmisija kako bi se spriječio gubitak podataka. Usmjeravanje se upravlja kombinacijom automatiziranih ACK paketa koji su predefinirani *nRF* mikrokontrolerom te softverskih ACK-ova. To omogućava veom brzo slanje podataka svim čvorovima na način da samo krajnji čvor za usmjeravanje potvrđuje isporuku i šalje potvrdu.
 
-Primjer: čvor 00 šalje čvoru 01. Čvorovi će koristiti ugrađene funkcije automatskog pokušaja i automatskog ACK-a.  
-Primjer: čvor 00 šalje čvoru 011. Čvor 00 će poslati čvoru 01 kao i prethodno. Čvor 01 će proslijediti poruku na 011. Ako je isporuka bila uspješna, čvor 01 će također proslijediti poruku o uspješnom prijenosu natrag prema čvoru 00.
+*Primjer*: čvor 00 šalje čvoru 01. Čvorovi će koristiti ugrađene funkcije automatskog pokušaja i automatskog ACK-a.  
+*Primjer*: čvor 00 šalje čvoru 011. Čvor 00 će poslati čvoru 01 kao i prethodno. Čvor 01 će proslijediti poruku na 011. Ako je isporuka bila uspješna, čvor 01 će također proslijediti poruku o uspješnom prijenosu natrag prema čvoru 00.
 
 ## Posrednički i krajnji senzorski uređaj
 
