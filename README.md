@@ -52,8 +52,9 @@ Vaš zadatak je spojiti posredničke i krajnje senzorske uređaje prema slici:
 
 <img src="https://cloud.githubusercontent.com/assets/8695815/24838259/eed6ec80-1d44-11e7-8137-7fabad4a0e53.png" width="400px" />
 
+Koristite kod koji je dan u direktoriju *vjezba* te vodite računa o ispravnom adresiranju posredničkih i krajnjih uređaja.
+
 ## Centralni senzorski uređaj
 
-Spojite centralni senzorske uređaje prema slici gore, samo vodite računa da nije potrebno imati senzore temperature, vlage i osvjetljenja.
-
+Vaš zadatak je spojiti spojiti centralni senzorski uređaj prema slici gore, samo vodite računa da nije potrebno imati senzore temperature, vlage i osvjetljenja. Također koristite kod koji je dan u direktoriju *vjezba*, međutim prilagodite kod na način da ne očitava nikakve vrijednosti sa senzora te ispišite koji adresu čvora koji šalje informacije o senroskim vrijednostima.
 
