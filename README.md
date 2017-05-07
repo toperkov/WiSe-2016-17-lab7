@@ -10,9 +10,30 @@ Mreža će se sastojati od jednog **centralnog uređaja**, **posredničkih beži
 
 U ovoj vježbi cilj je realizirati mrežnu topologiju stablaste stukture. Da bismo to napravili, koristit ćemo biblioteku *RF24Network* koju je potrebno prethodno instalirati u PlatformIO projekt. Više o biblioteci možete naći na  http://tmrh20.github.io/RF24Network/. Svatko tko je upoznat s IP mrežom trebao bi biti u stanju lako razumjeti RF24Network topologiju. Glavni čvor se može vidjeti kao pristupnik, s do 5 izravno povezanih čvorova. Svaki od tih čvorova stvara podmrežu ispod nje, s do 5 dodatnih child čvorova. Način numeriranja također se sličan IP adresiranju.
 
-U RF24Network, glavni čvor ima adresu 00  
-Child-ovi glavnog čvora su 01,02,03,04,05  
-Child-ovi čvora 01 su 011,021,031,041,051  
+ - U RF24Network, glavni čvor ima adresu 00  
+ - Child-ovi glavnog čvora su 01,02,03,04,05  
+ - Child-ovi čvora 01 su 011,021,031,041,051  
+
+U nastavku se nalazi prijmjer adresiranja senzorskih uređaja korištenjem *RF24Network* biblioteke 
+
+``` arduino
+// These are the Octal addresses that will be assigned
+const uint16_t node_address_set[10] = { 00, 02, 05, 012, 015, 022, 025, 032, 035, 045 };
+
+// 0 = Master
+// 1-2 (02,05)   = Children of Master(00)
+// 3,5 (012,022) = Children of (02)
+// 4,6 (015,025) = Children of (05)
+// 7   (032)     = Child of (02)
+// 8,9 (035,045) = Children of (05)
+```
+
+Ukoliko želimo da naš Arduino bude centralni čvor tada mu jednostavno pridjelimo adresu
+
+```ardiuno
+uint8_t NODE_ADDRESS = 0;  // Use numbers 0 through to select an address from the array
+                           // Address 0 corresponds to central node
+```
 
 ### Routiranje (usmjeravanje) podataka
 
