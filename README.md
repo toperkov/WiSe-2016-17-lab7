@@ -2,6 +2,8 @@
 
 ### FESB, smjer 110/111/112/114/120, akademska godina 2016/2017
 
+**NAPOMENA: Vježba je napravljena po uzoru na upute dane na http://tmrh20.github.io/RF24Network/** 
+
 U sklopu današnje vježbe student će realizirati jednostavnu bežičnu senzorsku mrežu *stablaste topologije* (``tree topology``) kao što je prikazana na slici.
 
 <img src="https://cloud.githubusercontent.com/assets/8695815/25784308/cfa62074-336a-11e7-8063-7169197fcab0.jpg" width="800px" />
@@ -57,3 +59,6 @@ Koristite kod koji je dan u direktoriju *vjezba* te vodite računa o ispravnom a
 ## Centralni senzorski uređaj
 
 Vaš zadatak je spojiti spojiti centralni senzorski uređaj prema slici gore, samo vodite računa da nije potrebno imati senzore temperature, vlage i osvjetljenja. Također koristite kod koji je dan u direktoriju *vjezba*, međutim prilagodite kod na način da ne očitava nikakve vrijednosti sa senzora te ispišite koji adresu čvora koji šalje informacije o senroskim vrijednostima.
+
+## Korisni linkovi
+ [1] http://tmrh20.github.io/RF24Network/ 
