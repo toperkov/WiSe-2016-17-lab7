@@ -57,4 +57,3 @@ Koristite kod koji je dan u direktoriju *vjezba* te vodite računa o ispravnom a
 ## Centralni senzorski uređaj
 
 Vaš zadatak je spojiti spojiti centralni senzorski uređaj prema slici gore, samo vodite računa da nije potrebno imati senzore temperature, vlage i osvjetljenja. Također koristite kod koji je dan u direktoriju *vjezba*, međutim prilagodite kod na način da ne očitava nikakve vrijednosti sa senzora te ispišite koji adresu čvora koji šalje informacije o senroskim vrijednostima.
-
